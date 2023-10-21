@@ -1,41 +1,13 @@
-# Quasar App (quasar-project)
+# Proyecto de Seminario del area de analisis
 
-Proyecto de Nominas para el area de Analisis de seminario de Privados
+Elaborado por Marvin Huitz Cuc
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+## Debe tener instalado node.js para poder ejecutar como base
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+## Debe tener instalado npm para ejecutar los comandos
 
 
 
-### Build the app for production
-```bash
-quasar build
-```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
+

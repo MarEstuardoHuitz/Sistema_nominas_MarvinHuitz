@@ -328,21 +328,6 @@
           const logo = getLogo();
 
 
-          // await api.get(logo??'',{ responseType: 'arraybuffer' })
-          // .then((response)=>{
-
-          //   if (response.status === 200) {
-
-          //     const imageData = Buffer.from(response.data, 'binary').toString('base64');
-          //     pdfFonts.pdfMake.vfs['logo.png'] = `data:image/png;base64,${imageData}`;
-          //   }
-
-          // }).catch((ex)=>{
-          //   showErrorEx(ex)
-          //   console.log(ex);
-
-          //   return;
-          // })
 
 
           const data = resp.data[0]

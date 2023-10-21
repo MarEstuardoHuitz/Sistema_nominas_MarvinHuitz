@@ -264,27 +264,7 @@ const showAlert = (
         // console.log('I am triggered on both OK and Cancel')
       });
 
-    // q.dialog({
-    //   title: titulo,
-    //   message: mensaje,
-    //   persistent: true,
-    //   ok: {
-    //     push: true,
-    //     label: 'Aceptar',
-    //   },
-    //   cancel: !cancelBtn
-    //     ? false
-    //     : {
-    //         push: false,
-    //         color: 'negative',
-    //         label: 'Cancelar',
-    //       },
-    // })
-    //   .onOk(onPressOk)
-    //   .onCancel(onPressCancel)
-    //   .onDismiss(() => {
-    //     // console.log('I am triggered on both OK and Cancel')
-    //   });
+
   } catch (error) {
     console.log(error);
   }
@@ -383,10 +363,7 @@ const inputBox= <T>(titulo: string, mensaje: string, tipo?: 'number'| 'password'
     });
     return p;
 
-  // } catch (error) {
-  //   console.log(error);
-  //   return '';
-  // }
+
 }
 
 
